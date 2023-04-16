@@ -1,0 +1,94 @@
+main {
+    margin: 10px 0px;
+    padding: 8% 6%;
+    background-color: #fafafa;
+    font-family: tahoma, helvetica;
+    color:  #333333
+  }
+  
+ figure{
+ background-color:#ffffff;
+   padding: 20px;
+   border-radius: 10px;
+   margin: 20px 0px;
+ }
+ 
+ 
+ #title{
+   margin: 0 auto;
+   text-align: center;
+   font-weight: normal;
+ }
+  
+ #subtitle{
+   font-size: 1em;
+   margin: 0 auto;
+   padding-bottom: 20px;
+   text-align: center;
+   font-weight: 2;
+   font-style: italic;
+   border-bottom: 3px solid 
+ #ffffff;
+ }
+ 
+   #image {
+     max-width:100%;
+     height: auto;
+     display:block;
+   }  
+ 
+   #img-caption{
+     font-family: tahoma;
+     font-size: 0.8em;
+     min-width: 10px;
+     padding-top: 10px;
+   }
+ 
+   #timeline-header{
+   margin: 0 auto;
+   padding: 10px 0;
+   text-align: center;
+   font-weight: 500;
+   }
+ 
+   section {
+     margin: 30px;
+   }
+ 
+   #tribute-info {
+     margin: auto;
+     width: 75%;
+   }
+ 
+   .year {
+     font-weight: bold;
+   }
+ 
+   #tribute-info ul {
+     font-size: 1em;
+     list-style-type: none;
+   }
+ 
+     #tribute-info li {
+     margin: 10px -20px ;
+  padding-left: 1em; 
+   text-indent: -3.5em;
+   
+ }
+ 
+   #quote {
+    font-style: italic;
+ background-color: #ffffff;
+   padding: 20px;
+   border-radius: 10px;
+   margin: 20px 0px;
+   }
+  
+   #further-reading {
+    font-weight: bold;
+   }
+ 
+   #further-reading a{
+     color: #8c8cd9;
+   }
+ 

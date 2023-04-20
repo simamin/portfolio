@@ -9,6 +9,7 @@
   - fix animation for icons on welcome page
   - project grid is uneven
   - launch blog / update twitter
+  - bugs: mobile: bio is wide, prevent form overlap (overflow:hidden is a temp fix), weird margin above footer, section padding is weird when borders set to 1px
 -->
 
 <head>
@@ -170,43 +171,45 @@
         </svg>
     </div>
     </section>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-container">
+          <h3>simran amin's portfolio</h3>
+          <span><br>Please note: website is still under construction! <br><br>
+          <span> © 2023 simran amin</span>
+        </div>
+      
+      <div class="footer-container">
+        <h3>quick links</h3>
+          <ul>
+            <li><a href="https://noepse.wordpress.com/">blog</a> |
+            <li><a href="art.html">art</a>
+          </ul>
+      
+          <ul>
+            <li><a href="#welcome-section">home</a>
+            <li>|
+            <li><a href="#projects">projects</a>
+            <li>|
+            <li><a href="#contact">contact</a>
+            <li>|
+            <li><a href="" id="cv">cv</a>
+          </ul>
+        </div>
+      
+      
+      
+        <div class="footer-container">
+          <h3>social</h3>
+          <ul>
+            <li><a href="https://www.instagram.com/n0epse/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+           <li><a href="https://github.com/noepse" target="_blank"> <i class="fa-brands fa-github"></i></a>
+            <li><a href="https://www.freecodecamp.org/fcc50234374-b436-46d5-a40f-bbac7115ff1a" id="profile-link" target="_blank"><i class="fa-brands fa-free-code-camp"></i></a>
+           <li><a href="https://mobile.twitter.com/n0epse" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </ul>
+          </div>
+        </div>
+      </footer>
 </body>
-<footer>
-
-  <div>
-    <h3>simran amin's portfolio</h3>
-    <span><br>Please note: website is still under construction! <br><br>
-    <span> © 2023 simran amin</span>
-  </div>
-
-<div>
-  <h3>quick links</h3>
-    <ul>
-      <li><a href="https://noepse.wordpress.com/">blog</a> |
-      <li><a href="art.html">art</a>
-    </ul>
-
-    <ul>
-      <li><a href="#welcome-section">home</a>
-      <li>|
-      <li><a href="#projects">projects</a>
-      <li>|
-      <li><a href="#contact">contact</a>
-      <li>|
-      <li><a href="" id="cv">cv</a>
-    </ul>
-  </div>
-
-
-  <div>
-    <h3>social</h3>
-    <ul>
-      <li><a href="https://www.instagram.com/n0epse/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-     <li><a href="https://github.com/noepse" target="_blank"> <i class="fa-brands fa-github"></i></a>
-      <li><a href="https://www.freecodecamp.org/fcc50234374-b436-46d5-a40f-bbac7115ff1a" id="profile-link" target="_blank"><i class="fa-brands fa-free-code-camp"></i></a>
-     <li><a href="https://mobile.twitter.com/n0epse" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-      </ul>
-    </div>
-</footer>
 
 </html>

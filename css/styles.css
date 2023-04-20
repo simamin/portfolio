@@ -18,7 +18,6 @@
 
   body{
     position: relative;
-    overflow-x: hidden;
   }
   
   html{
@@ -163,7 +162,8 @@
     min-width: 500px;
     margin-left: 2rem;
   }
-  
+
+
   #welcome-section h1{
     font-size: 3rem;
     text-align: left;
@@ -246,7 +246,7 @@
 .custom-shape-divider-bottom-1678547515 svg {
     position: relative;
     display: block;
-    width: calc(115% + 1.3px);
+    width: 112%;
     height: 123px;
 }
 
@@ -489,20 +489,27 @@
     color: var(--color4)
   }
 
+  #contact h2{
+    font-size: 1rem;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+  }
+
   .custom-shape-divider-bottom-1678549922 {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 200%;
+    width: 100%;
     overflow-x: hidden;
     line-height: 0;
-    transform: rotate(180deg);
+    transform: rotate(180deg) scaleX(-1);
 }
 
 .custom-shape-divider-bottom-1678549922 svg {
     position: relative;
     display: block;
-    width: calc(300% + 1.3px);
+    width: calc(700% + 1.3px);
     height: 50rem;
 }
 
@@ -514,23 +521,24 @@
   position: relative;
   width: 40%;
   min-width: 300px;
-  margin: auto;
+  margin: 0 auto;
   background: var(--color1);
   z-index: 2;
   border-radius: 5px;
-}
-
-label, input{
-  display: block;
+  padding: 1rem 0;
 }
 
 label{
-  padding: 1rem 2rem 0.5rem 2rem;
+  padding: 1rem 2rem 0.5rem 3rem;
+  display: block;
+
+
 }
 
 input, textarea {
+  display: block;
   width: 80%;
-  margin: 0rem 2rem 1rem 2rem;
+  margin: 0 auto;
   padding: 0.4rem;
   border-radius: 2px;
   font-family: 'open sans', sans-serif;
@@ -539,6 +547,7 @@ input, textarea {
 
 #submit{
 background-color: var(--color3);
+margin-top: 0.5rem;
 }
 
 #submit:hover{
@@ -552,6 +561,10 @@ background-color: var(--color3);
 text-align: center;
 font-size: 0.7rem;
 padding: 1rem 0rem;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: top;
 }
 
 footer i{

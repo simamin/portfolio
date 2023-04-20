@@ -626,6 +626,7 @@ font-size: 2.4em;
 
   .footer-wrapper{
     flex-direction: column;
+    height: 20rem;
   }
 
 }

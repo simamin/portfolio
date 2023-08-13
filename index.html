@@ -146,7 +146,9 @@
   <section id="contact">
     <div class="contact me">
       <h1>contact me</h1>
-      <form method="POST" action="action_page.php">
+      <!--<form action="action_page.php" method="post"> 
+      now using netlify as simpler than finding/paying for hosting service which can use php-->
+      <form name="contact" netlify>
         <div class="form-container">
             <label for="name">name</label>
             <input type="text" id="name" name="name" placeholder="enter your name">

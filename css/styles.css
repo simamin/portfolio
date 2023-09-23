@@ -112,10 +112,8 @@
     justify-content: space-evenly;
     background-image: linear-gradient(
     180deg,
-      var(--color1),
-    var(--color1) 45%,
-    var(--color2) 10%,
-    var(--color2));
+    var(--color1) 30%,
+    var(--color2) 100%);
     padding-bottom: 5rem;
   }
 
@@ -596,10 +594,8 @@ font-size: 2.4em;
   #welcome-section{
   background-image: linear-gradient(
     180deg,
-      var(--color1),
     var(--color1) 30%,
-    var(--color2) 10%,
-    var(--color2));
+    var(--color2) 100%);
   }
 
 }
@@ -626,10 +622,8 @@ font-size: 2.4em;
     #welcome-section{
     background-image: linear-gradient(
       180deg,
-        var(--color1),
-      var(--color1) 35%,
-      var(--color2) 10%,
-      var(--color2));
+      var(--color1) 30%,
+      var(--color2) 100%);
   }
 
   .footer-wrapper{

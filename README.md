@@ -16,7 +16,7 @@ A portfolio website summarising the projects I create while learning to code, wr
 Feel free to reach out via any of the routes below.
 
 - Fill out this [online form](https://simranamin.com/#contact)
-- Connect with me on [LinkedIn](https://www.linkedin.com/in/simranamin/)
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/simran-amin/)
 - DM me on [Instagram](https://www.instagram.com/n0epse/?hl=en)
 
 ### credits

@@ -194,13 +194,15 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: left;
     list-style: none;
     z-index: 1;
     padding-bottom: 4rem;
   }
   
   #welcome-section li{
+    background: var(--color1);
+    border-radius: 5px;
     padding: 1rem;
     font-size: 1.3rem;
     color: var(--color5);
@@ -575,7 +577,7 @@ font-size: 2.4em;
   }
 
   #welcome-section ul{
-    text-align: center;
+    justify-content: center;
   }
 
   #welcome-section li{
@@ -604,14 +606,6 @@ font-size: 2.4em;
 
   .bio{
     min-width: 450px;
-  }
-
-  #welcome-section h1{
-    font-size: 2.2rem;
-  }
-
-  #welcome-section h2{
-    font-size: 1.3rem;
   }
 
   nav ul{

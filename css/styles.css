@@ -286,7 +286,7 @@
   .project-grid{
     width: 100%;
     height: 100%;
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       grid-gap: 1rem;
     max-width: 1280px;
     margin: 0 auto;
@@ -295,7 +295,7 @@
   
   .project-tile{
     overflow: hidden;
-    height: 450px;
+    min-height: 200px;
     border-radius: 2px;
     position: relative;
     z-index: 2;

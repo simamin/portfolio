@@ -115,7 +115,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
     line-height: 0;
     transform: scaleY(-1) scaleX(-1);
 }
@@ -590,7 +589,7 @@ font-size: 2.4em;
 
 }
 
-@media screen and (max-width:620px) {
+@media screen and (max-width:768px) {
 
   .header{
     flex-direction: column;
@@ -610,7 +609,7 @@ font-size: 2.4em;
     }
 
     #welcome-section{
-      margin-top: 80px;
+      margin-top: 120px;
     background-image: linear-gradient(
       180deg,
       var(--color1) 30%,
@@ -624,7 +623,19 @@ font-size: 2.4em;
 
 @media screen and (max-width:390px) {
   #welcome-section{
-    margin-top: 150px;
+    padding-top: 140px;
+    margin-bottom: 80px
+  }
+
+  #contact{
+    margin-bottom: 60px
+  }
+
+  #contact form{
+    height: 100%
+  }
+  nav #cv {
+    gap: 200px
   }
 
 }
